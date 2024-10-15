@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+}
+
+.space--around-content {
+  padding: 0 6rem;
+}
+
+.round {
+  width: 240px;
+  height: 240px;
+  background: rgba(227, 220, 252, 0.4);
+  backdrop-filter: blur(231.0146942138672px);
+  position: absolute;
+  top: -42px;
+  left: -52px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* ******** HEADER ********* */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  /* width: 100%; */
+  height: 100%;
+  padding: 1.8rem 4rem 0 2rem;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav--list,
+.nav--link {
+  list-style: none;
+}
+
+.nav--logo {
+  width: 100px;
+  height: 50px;
+}
+
+.main--link {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: rgba(29, 30, 37, 1);
+  text-decoration: none;
+}
+
+.free--button {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  width: 181px;
+  height: 50px;
+  padding: 14px 20px;
+  line-height: 26px;
+  border-radius: 30px;
+  background-color: rgba(2, 88, 248, 1);
+  border: none;
+  /* opacity: 100%; */
+}
+
+/* ******** SECTION HERO ********* */
+.section--hero {
+  margin-top: 6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.heading--container {
+  background-color: green;
+}
+
+.rating--flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.rating--image {
+  width: 100px;
+  height: 20px;
+}
+
+.rating--words {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: rgba(29, 30, 37, 1);
+}
+
+.heading--one {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 86.4px;
+  letter-spacing: -2%;
+}
+
+.layout--one {
+font-family: Inter;
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+color: #7E8492;
+margin-top: 10px;
+}
+
+.button--action {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.button--and--demo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.watch-demo-button {
+  background-color: #EDEDED;
+  color: #0258F8;
+  border: solid 1px #EDEDED;
+  padding: 0;
+  align-items: center;
+}
+
+.play-demo {
+  width: 20px;
+  height: 20px;
+}
+
+.image--container {
+  background-color: red;
+}
+
+.image--words {
+  font-family: Manrope;
+  font-weight: 600;
+  font-size: 12.34px;
+  line-height: 6.85px;
+  color: #2e2c34;
+  margin-bottom: 10px;
+}
+
+.two-flex-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.flex-one-image {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.image--one {
+  width: 222.09px;
+  height: 156.58px;
+  box-shadow: 0px 16px 24px 0px #10101003;
+}
+
+.image--two {
+  width: 222.09px;
+  height: 376.58px;
+  box-shadow: 0px 16px 24px 0px #10101003;
+}
+
+.flex-two-image {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* align-items: center; */
+}
+
+.flex-two-image--one {
+  width: 385.24px;
+  height: 210.81px;
+  box-shadow: 0px 16px 24px 0px #10101003;
+}
+
+.flex-two-image--two {
+  width: 385.24px;
+  height: 265.93px;
+  box-shadow: 0px 16px 24px 0px #10101003;
+}
