@@ -502,15 +502,141 @@
 }
 
 .statistic--image {
-  width: 515px;
+  width: 495px;
   height: 330px;
   border-radius: 8px;
   background-color: #e5e7ec;
 }
 
 .statistic--image--1 {
-  width: 370px;
+  width: 350px;
   height: 280px;
   margin-top: 30px;
   margin-left: 20px;
+}
+
+/* ******** FEATURE--TWO--SECTION ********* */
+.feature--two {
+  background-color: #fafbff;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
+
+.heading--four {
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 53px;
+  line-height: 67.2px;
+  letter-spacing: -1%;
+  color: #1d1e25;
+  margin-bottom: 10px;
+}
+
+.advantage--paragraph {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #7e8492;
+  margin-bottom: 40px;
+}
+
+.learn--more--btn {
+  width: 142px;
+  height: 54px;
+  padding: 14px 20px;
+  border-radius: 30px;
+  background-color: #0258f8;
+  font-family: Inter;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 26px;
+  margin-bottom: 50px;
+}
+
+.three--flex--feature--two {
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.feature--text {
+  width: 340px;
+  height: 290px;
+  border-radius: 8px;
+  padding: 24px;
+  background-color: #ffffff;
+  border: solid 1px #ededed;
+}
+
+.heading--feature {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: #1d1e25;
+  line-height: 48px;
+  margin-bottom: 20px;
+}
+
+.paragraphy--feature {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7e8492;
+  margin-bottom: 30px;
+}
+
+.icon--picture {
+  width: 70px;
+  height: 70px;
+  background-color: #FAFBFA;
+  border-radius: 50%;
+}
+
+.icon--icon {
+  width: 55px;
+  height: 55px;
+  margin-top: 8px;
+  margin-left: 7px;
+}
+
+/* ******** TESTIMONIAL--SECTION ********* */
+.testimonial--section {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+}
+
+.customer--review {
+  /* display: flex; */
+  /* justify-content: center; */
+  align-items: center;
+  width: 164px;
+  height: 37px;
+  padding: 8px 12px;
+  background-color: #EBF5FD;
+  border-radius: 30px;
+}
+
+.review--words {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #0258f8;
+}
+
+.more--words{
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  color: #7e8492;
 }
