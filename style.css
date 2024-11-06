@@ -25,7 +25,7 @@
   justify-content: space-between;
   align-items: center;
   /* background-color: rgba(255, 255, 255, 0.2); */
-  background: #e3dcfc66;
+  /* background: #e3dcfc66; */
   /* backdrop-filter: blur(231.0146942138672px); */
   /* width: 100%; */
   height: 100%;
@@ -55,7 +55,7 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
-  color: rgba(29, 30, 37, 1);
+  color: #1D1E25;
   text-decoration: none;
 }
 
@@ -98,10 +98,6 @@
   justify-content: center;
   align-items: center;
 }
-
-/* .heading--container {
-  background-color: green;
-} */
 
 .rating--flex {
   display: flex;
@@ -208,9 +204,11 @@
   /* margin-left: -0; */
 }
 
-/* .image--container {
-  background-color: red;
-} */
+.image--container {
+  /* background-color: red; */
+  background-image: url(/image/Gradient.png);
+  background-position: center;
+}
 
 .image--words {
   font-family: Manrope;
@@ -518,9 +516,10 @@
 
 /* ******** FEATURE--TWO--SECTION ********* */
 .feature--two {
-  background-color: #fafbff;
-  padding-top: 6rem;
-  padding-bottom: 4rem;
+  /* max-width: 90rem; */
+  /* background-color: #fafbff; */
+  /* padding-top: 6rem;
+  padding-bottom: 4rem; */
 }
 
 .heading--four {
@@ -609,6 +608,7 @@
 
 /* ******** TESTIMONIAL--SECTION ********* */
 .testimonial--section {
+  max-width: 90rem;
   margin-top: 5rem;
 }
 
@@ -647,6 +647,7 @@
 
 /* ******** TESTIMONIAL--SLIDER ********* */
 .testimonial--slider {
+  max-width: 100rem;
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
@@ -732,6 +733,7 @@
 
 /* ******** CTA--SECTION ********* */
 .cta--section {
+  max-width: 90rem;
   margin-top: 5rem;
   display: flex;
   flex-direction: column;
@@ -777,7 +779,13 @@
 
 /* ******** FOOTER--SECTION ********* */
 .footer--section {
+  max-width: 90rem;
   margin-top: 4rem;
+  background-image: url(/image/c.png);
+  background-position: right;
+object-fit: cover;
+background-size: 350px;
+  background-repeat: no-repeat;
   padding: 3rem 6rem 1rem 6rem;
   background-color: #0258f8;
 }
@@ -786,7 +794,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 4rem;
+  margin-bottom: 3.4rem;
 }
 
 .heading--join {
@@ -846,7 +854,7 @@
 
 .link--title,
 .link--name,
-.main--link {
+.mainlink {
   font-family: Inter;
   font-weight: 500;
   font-size: 15px;
@@ -871,4 +879,40 @@
 
 .social--img {
   width: 40px;
+}
+
+.another--horizontal--line {
+  border: solid 1px #FAFBFF;
+  margin-top: 2.4rem;
+  margin-bottom: 1.4rem;
+}
+
+.copyright--section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright--text {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #ffffff;
+  align-self: center;
+}
+
+.terms--condition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.condition--terms {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 19.36px;
+  color: #ffffff;
 }
